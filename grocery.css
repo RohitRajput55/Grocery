@@ -224,9 +224,8 @@ button:hover{
     position: relative;
     width: 100%;
     white-space: nowrap;
-    
     overflow-x: auto;
-    padding-top: 5%;
+    
 }
 
 #cards #card1 {
@@ -780,6 +779,9 @@ button:hover{
     #cont button {
         margin-bottom: 4%;
         font-size: 5vw;
+    }
+    #cards {
+        padding:10% 0 ;
     }
     #cards #card1 h3 {
         font-size: 6vw;
