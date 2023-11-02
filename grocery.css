@@ -161,7 +161,7 @@ button:hover{
     height: 100%;
 }
 .banner1 {
-    background-image:  linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url('https://images.unsplash.com/photo-1573246123716-6b1782bfc499?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEZydWl0c3xlbnwwfHwwfHx8MA%3D%3D');
+    background-image:  linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url('https://img.freepik.com/free-photo/healthy-eating-fresh-fruits-vegetables-collection-generated-by-ai_188544-21217.jpg?t=st=1698938641~exp=1698942241~hmac=d1596b28261ad3546621a554644104dff4e61efbf8e5453eea5466e4e8bc1e93&w=1060');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -169,7 +169,7 @@ button:hover{
 }
 
 .banner2 {
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url('https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RnJ1aXRzfGVufDB8fDB8fHww');
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url('https://img.freepik.com/premium-photo/fresh-fruits-vegetables_8595-135.jpg?w=996');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -177,7 +177,7 @@ button:hover{
 }
 
 .banner3 {
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url('https://media.istockphoto.com/id/1128687123/photo/shopping-bag-full-of-fresh-vegetables-and-fruits.jpg?s=612x612&w=0&k=20&c=jXInOVcduhEnfuUVffbUacldkF5CwAeThD3MDUXCItM=');
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url('https://img.freepik.com/free-photo/picture-vegetables-fruits-with-blue-background_1340-23458.jpg?t=st=1698939169~exp=1698942769~hmac=49e5cc34a312afbe999b9059015edee38b3224761c7388292dc5f447567d27b8&w=996');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -185,7 +185,7 @@ button:hover{
 }
 
 .banner4 {
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url('https://media.istockphoto.com/id/1048954912/photo/assorted-vegetables.jpg?s=612x612&w=0&k=20&c=UfuAfwqscF6YXc0ofz-dlcbRzCjoQquMiV28naqWuqY=');
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url('https://img.freepik.com/free-photo/spices-herbs-wooden-spoon-collection-generated-by-ai_188544-21778.jpg?t=st=1698939261~exp=1698942861~hmac=f089b9a42ada57ec9d4c2b6889e3f0a860f81f4a13dae1617410d81d2e7c97b2&w=1060');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -193,7 +193,7 @@ button:hover{
 }
 
 .banner5 {
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url('https://media.istockphoto.com/id/521812367/photo/stocked-shelves-in-grocery-store-aisle.jpg?s=612x612&w=0&k=20&c=blKzsyPv0wvd57hqMniFaHALwU6Skx4lq9o4D2QcBBM=');
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url('https://img.freepik.com/free-photo/winter-vegetarian-vegan-food-cooking-ingredients-ai-generated-image_511042-1831.jpg?t=st=1698939331~exp=1698942931~hmac=4dd561e514c078f29ff25568408c1acdb1a7b9529a087f87d0c8fd2a79eca4d1&w=1060');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -202,7 +202,7 @@ button:hover{
 
 #ctgs {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     padding: 2vw 4vw;
 }
 
@@ -211,18 +211,20 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 5%;
 }
 
 #cont h1 {
     font-size: 2vw;
+    margin-bottom: 5%;
 }
 
 
 
 #cards {
+    padding-top: 2vw;
     position: relative;
     width: 100%;
+    height: 80%;
     white-space: nowrap;
     overflow-x: auto;
     
@@ -739,6 +741,9 @@ button:hover{
 
 @media(max-width:500px) {
     
+    #nbar {
+        padding: 2vw 16vw;
+    }
     #menu {
         margin-right: 5%;
     }
@@ -763,6 +768,15 @@ button:hover{
     .nbar p { 
     padding-left: 10%;
     }
+
+    #hero {
+        width: 100%;
+        height: 60%;
+    }
+
+    #hero-txt {
+        width: 100%;
+    }
     #hero-txt h1 {
         font-size: 8vw;
     }
@@ -781,10 +795,17 @@ button:hover{
         font-size: 5vw;
     }
     #cards {
-        padding:10% 0 ;
+        margin-top: 5%;
+        height: 100%;
     }
+    #cards #card1 {
+        position: relative;
+        height: 300px;
+        width: 230px;
+    }
+    
     #cards #card1 h3 {
-        font-size: 6vw;
+        font-size: 5vw;
     }
     #cards #card1 p {
         font-size: 5vw;
@@ -826,7 +847,7 @@ button:hover{
         font-size: 7vw;
     }
     #about {
-        margin-top: 130%;
+        margin-top: 140%;
     }
     #about #atxt h1 {
         font-size: 8vw;
@@ -837,10 +858,10 @@ button:hover{
     }
     #about #atxt button {
         margin-top: 5%;
-        font-size: 3.5vw;
+        font-size: 5vw;
     }
     #about #atxt button i {
-        font-size: 3.5vw;
+        font-size: 5vw;
     }
     #about #img5 img {
         width: 270px;
@@ -851,7 +872,7 @@ button:hover{
         font-size: 4vw;
     }
     #ft img {
-        width: 400px;
+        width: 340px;
         height: 400px;
     }
 }
